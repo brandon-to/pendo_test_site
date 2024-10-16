@@ -4,7 +4,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/*
+
 function Init() {
 
 	var screenSize = screen.width + "x" + screen.height;
@@ -81,7 +81,7 @@ function Init() {
 	};
 	return pendoVariableInitialization;
 };
-*/
+
 
 document.addEventListener('DOMContentLoaded', function () {
   var collection = $('#main > .special > .major:nth-child(1):first');

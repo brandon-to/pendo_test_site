@@ -45,8 +45,8 @@ function Init() {
 	{
 		apiKey: 'c1fbe8ff-1628-4626-4e20-781fa7e463b2',
 		visitor: {
-			//id: randomVisitor,
-			id: window.prompt("enter visitor ID", "Your ID"),//Math.round(Math.random()*10)  // Required if user is logged in
+			id: randomVisitor,
+			//id: window.prompt("enter visitor ID", "Your ID"),//Math.round(Math.random()*10)  // Required if user is logged in
 			screen:screenSize,
 			browser:brwsr,
 			firstName: firstNameOptions[optionsSelector],

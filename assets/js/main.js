@@ -225,3 +225,16 @@ document.addEventListener('DOMContentLoaded', function () {
 	});
 
 })(jQuery);
+
+
+const form = document.getElementById('homepage_form');
+const dropdown = document.getElementById('cars-dropdown');
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent default form submission
+
+  const selectedValue = dropdown.value;
+  console.log("Selected value:", selectedValue);
+
+  // Do something with the selected value, e.g., send it to a server
+});

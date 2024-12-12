@@ -112,11 +112,35 @@
 										<p>This site is a sandbox for developing HTML/CSS/JS applications and integrations.</p>
 										<ul class="actions">
 											<li><a href="https://brandon-to.github.io/pendo_test_site/assets/pages/generic.html" class="button">Generic Page</a></li>
+											<li>
+												<button type="button" class="collapsible-element">Open Collapsible</button>
+												<div class="content-collapsible">
+												  <p>i am a test collapsible for showing and hiding element</p>
+												</div>
+											</li>
 										</ul>
 									</div>
 									<span class="image"><img src="images/pic01.jpg" alt="" /> </span>
 								</div>
 							</section>
+
+							<!-- collapsible script (move to JS later) -->
+							<script>
+								var coll = document.getElementsByClassName("collapsible-element");
+								var i_collapsible;
+
+								for (i_collapsible = 0; i_collapsible < coll.length; i_collapsible++) {
+								coll[i_collapsible].addEventListener("click", function() {
+									this.classList.toggle("active");
+									var content_collapsible = this.nextElementSibling;
+									if (content_collapsible.style.display === "block") {
+										content_collapsible.style.display = "none";
+									} else {
+										content_collapsible.style.display = "block";
+									}
+								});
+								}
+							</script>
 
 						<!-- First Section -->
 							<section id="first" class="main special">

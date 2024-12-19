@@ -47,7 +47,7 @@ function Init() {
 		visitor: {
 			//id: 1234,
 			id: randomVisitor,
-			//id: window.prompt("enter visitor ID", "Your ID"),//Math.round(Math.random()*10)  // Required if user is logged in
+			id: window.prompt("enter visitor ID", "Your ID"),//Math.round(Math.random()*10)  // Required if user is logged in
 			screen:screenSize,
 			browser:brwsr,
 			firstName: firstNameOptions[optionsSelector],

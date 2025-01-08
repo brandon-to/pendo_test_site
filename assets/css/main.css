@@ -2921,7 +2921,7 @@
 					
 
 		#nav.alt {
-			position: fixed;
+			/* position: fixed; */
 			top: 0;
 			padding: 0.5em 1em;
 			background-color: rgba(247, 247, 247, 0.95);
